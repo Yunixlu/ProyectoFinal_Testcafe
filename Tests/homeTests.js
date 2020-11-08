@@ -6,7 +6,7 @@ import  productsPage  from '../PageObjectModel/pom_Products';
 
 const getLocation = ClientFunction(() => document.location.href);
 
-fixture('Proyecto final')
+fixture('Modulo Home')
     .page('http://automationpractice.com/index.php');
 
 test('CP_Home1 - Abrir la página de automation practice y se muestre el Home', async t =>{

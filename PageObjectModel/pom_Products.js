@@ -19,6 +19,8 @@ class ProductsPage{
         this.price = Selector('#our_price_display');
         this.addToCartButton = Selector('#add_to_cart > button > span');
         this.addToWishList = Selector('#wishlist_button');
+        this.addedProduct = Selector('#product > div.fancybox-overlay.fancybox-overlay-fixed > div > div > div > div > p')
+        this.alertCloseBtn = Selector('#product > div.fancybox-overlay.fancybox-overlay-fixed > div > div > a')
     
         
     }
