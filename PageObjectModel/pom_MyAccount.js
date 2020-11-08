@@ -30,6 +30,9 @@ class MyAccountPage{
         this.myAccountTitle = Selector('#center_column > h1');
         this.baseListOptions = Selector('#center_column > div > div:nth-child(1) > ul > li')
         this.wishListOption = Selector('#center_column > div > div:nth-child(2) > ul > li > a > span')
+        this.viewInfo = Selector('#header > div.nav > div > div > nav > div:nth-child(1) > a > span')
+
+
 
         //Login
         this.signInLink = Selector('#header > div.nav > div > div > nav > div.header_user_info > a');
@@ -42,6 +45,10 @@ class MyAccountPage{
         this.wishListInput = Selector('#name');
         this.saveWishListBtn = Selector('#submitWishlist > span');
         this.wishListName = Selector('#block-history > table > tbody > tr > td:nth-child(1) > a').withText(dataAccount.wishListName);
+        this.wishListProduct = Selector('#wlp_7_34 > div > div:nth-child(1) > div > a > img');
+        this.wishListRemove = Selector('#block-history > table > tbody > tr > td:nth-child(6) > a');
+        this.messageRemove = Selector('#wishlist_25781 > td.wishlist_delete > a')
+
     }
 }
 export default new MyAccountPage();

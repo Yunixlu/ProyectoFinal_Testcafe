@@ -4,7 +4,7 @@ import { ClientFunction } from 'testcafe';
 import { dataAccount } from '../Data/data';
 
 const getEmail = dataAccount.email;
-fixture('Proyecto final')
+fixture('Modulo My Account')
 .page('http://automationpractice.com/index.php');
 
 test('CP_MyAccount1 - Ingresar un correo no válido para crear una cuenta', async t =>{

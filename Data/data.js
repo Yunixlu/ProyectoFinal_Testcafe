@@ -31,14 +31,18 @@ let dataAccount = {
     myAccountOption4: "MY PERSONAL INFORMATION",
     myAccountOption5: "MY WISHLISTS",
     wishListTitle: "MY WISHLISTS",
-    wishListName: "Cute clothes",
-    emailLogin: "dummy.hv9@mailinator.com"
+    wishListName: "My wishlist",
+    emailLogin: "dummy.hv9@mailinator.com",
+    alert: "confirm",
+    messageAlert: "Do you really want to delete this wishlist ?",
+    urlAlert: "http://automationpractice.com/index.php?fc=module&module=blockwishlist&controller=mywishlist"
+
 
 }
 
 let dataHome = {
     productSearch: "PRINTED CHIFFON DRESS",
-    email: 'dummy' + rndNumber + '@mailinator.com',
+    email: 'dummy1' + rndNumber + '@mailinator.com',
     dressesCategory: "DRESSES"
 }
 
@@ -57,7 +61,8 @@ let dataProduct = {
     image: "Printed Chiffon Dress",
     productTitle:"Printed Chiffon Dress",
     productDescription: "Printed chiffon knee length dress with tank straps. Deep v-neckline.",
-    price: "$18.40"
+    price: "$18.40",
+    addedProduct: "Added to your wishlist."
 }
 
 let dataShopping = {
@@ -65,9 +70,16 @@ let dataShopping = {
     cartTitle: "SHOPPING-CART SUMMARY",
     deliveryAddress:"ADDRESSES",
     addComment: "Thank you!",
-    shippingTitle: "SHIPPING"
-
-
+    shippingTitle: "SHIPPING",
+    paymentMethodTitle: "PLEASE CHOOSE YOUR PAYMENT METHOD",
+    orderSummaryTitle: "ORDER SUMMARY",
+    bankWirePayment: "BANK-WIRE PAYMENT.",
+    orderConfirmation: "ORDER CONFIRMATION",
+    orderCompleteText:"Your order on My Store is complete.",
+    receivePaymentText:"Your order will be sent as soon as we receive payment.",
+    checkPaymentTitle: "CHECK PAYMENT",
+    checkPaymentText: "You have chosen to pay by check. Here is a short summary of your order:",
+    alertOrderComplete: "Your order on My Store is complete."
 
 }
 
